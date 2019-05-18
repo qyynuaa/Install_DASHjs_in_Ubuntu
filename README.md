@@ -1,4 +1,4 @@
-# Configure dash.js development environment on Ubuntu 16.04
+# Configure dash.js development environment on Ubuntu 16.04/ 18.04
 
 
 ## Install nodejs v12
