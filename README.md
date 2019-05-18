@@ -48,3 +48,12 @@ Build distribution files, lint, run unit tests and generate documentation
 ```
 	grunt release
 ```
+## Trouble shooting
+
+If npm install cause error like Unhandled rejection Error: EACCES: permission denied, mkdir '/home/username/.npm/_cacache/index-v5/d7/02'
+
+Give ownership to npm like this:
+```
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config
+```
